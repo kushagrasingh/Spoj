@@ -1,6 +1,6 @@
 #include <cstdio>
 #include <iostream>
-#include <string>
+#include <cstring>
 
 using namespace std;
 char num[252], dp[32][256],len;
@@ -17,7 +17,7 @@ int solve( int pos, int prev ) {
         if(sum >= prev)
             ret += solve(i+1,sum);
     }
-return (dp[pos][prev]=ret);
+return ret;
 }
 
 int main() {
@@ -29,3 +29,6 @@ int main() {
     }
     return 0;
 }
+
+
+
