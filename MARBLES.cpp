@@ -32,3 +32,4 @@ int main()
         cout << cnr(n - 1,min(n-k,k-1)) << endl;
     }
 }
+

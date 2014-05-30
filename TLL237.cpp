@@ -52,3 +52,4 @@ int main() {
     printf("%d %d\n",min1,min2);
     return 0;
 }
+
